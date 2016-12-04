@@ -60,7 +60,7 @@ spotify.search({ type: 'track', query: "name" }, function(error, response) {
 
  function movie(){
   
-  var movieName = "frozen";
+  var movieName = "Mr. Nobody";
   
   var queryURL = "http://omdbapi.com/?t=" + movieName + "&tomatoes=true" + "&r=json";
 
